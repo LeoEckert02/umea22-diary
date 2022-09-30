@@ -3,6 +3,7 @@
     import Grid from "../components/grid.svelte";
     import Dropdown from "../components/dropdown.svelte";
     import { chosenMonth, imageData, fetchImages, isPhone, loaded } from "../stores/stores"
+    import { ScaleOut } from 'svelte-loading-spinners'
 
     const lengthOfNonePhoneScreen = 768;
 
@@ -22,6 +23,11 @@
     </div>
     {#if $imageData.length === 0 && $loaded}
         <p>there's nothing to see here yet... </p>
+    {/if}
+    {#if !$loaded}
+        <div class="flex justify-center">
+            <ScaleOut size="30" color="#496df5" unit="px" duration="1s"></ScaleOut>
+        </div>
     {/if}
     <div class="flex justify-start font-standard pb-20 w-full">
         <Grid></Grid>
