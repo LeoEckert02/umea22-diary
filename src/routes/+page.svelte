@@ -26,7 +26,7 @@
     {/if}
     {#if !$loaded}
         <div class="flex justify-center">
-            <ScaleOut size="30" color="#496df5" unit="px" duration="1s"></ScaleOut>
+            <ScaleOut size="30" color="#6fa3fc" unit="px" duration="1s"></ScaleOut>
         </div>
     {/if}
     <div class="flex justify-start font-standard pb-20 w-full">
