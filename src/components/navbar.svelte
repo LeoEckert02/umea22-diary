@@ -77,7 +77,6 @@
                     </div>
                 </label>
                 <ul tabindex="0" class="block font-standard dropdown-content menu p-2 mt-11 -mr-3 shadow bg-base-100 rounded-md w-52">
-                    <li><a href="/">home</a></li>
                     {#if $loggedIn}
                         <li><a href="/upload">upload</a></li>
                     {/if}
