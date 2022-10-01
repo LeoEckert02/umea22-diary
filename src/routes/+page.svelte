@@ -24,7 +24,7 @@
     {#if $imageData.length === 0 && $loaded}
         <p>there's nothing to see here yet... </p>
     {/if}
-    {#if $loaded}
+    {#if !$loaded}
         <div class="flex justify-center mt-14">
             <ScaleOut size="30" color="#6fa3fc" unit="px" duration="1s"></ScaleOut>
         </div>
