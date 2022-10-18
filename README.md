@@ -1,3 +1,8 @@
+# What is this project about?
+
+This is basically a small diary in which I document my semester abroad in Umeå, Sweden. 
+You can visit the page [here](https://umea.eckertleo.de)
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
